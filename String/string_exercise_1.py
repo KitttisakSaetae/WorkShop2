@@ -8,5 +8,5 @@ print(string.lower())
 print(string.replace("r", "x"))
 
 age = 36
-txt = f"My name is John, and I am {age}"
-print("txt", txt)
+txt = "My name is John, and I am {}"
+print(txt.format(age))
