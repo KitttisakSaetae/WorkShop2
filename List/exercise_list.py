@@ -30,3 +30,5 @@ x = 0
 for num in fruits:
     x = x + 1
 print(x)
+# หรืออีกวิธี
+print(len(fruits))
