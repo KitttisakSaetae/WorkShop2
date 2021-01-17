@@ -12,7 +12,7 @@ fruits.append("kiwi")
 
 # จงเพิ่ม "lemon" ไประหว่าง "apple" กับ "ิิbananna"
 fruits = ["apple", "banana", "cherry"]
-fruits.insert(1, "lemon")
+fruits.insert(0, "lemon")
 print(fruits)
 
 # จงลบ "cherry" จาก list
